@@ -16,3 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
             .join('');
     });
 });
+
+/* Navigate to the Solar System page */
+function navigateToSolarSystem() {
+    window.location.href = 'solar-system.html';
+}
